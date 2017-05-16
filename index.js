@@ -14,9 +14,9 @@ ctrl.createChannel = function () {
 };
 
 
-getChannel = function () {
+var getChannel = function () {
     return new Promise(function (resolve, reject) {
-        resolve([{chid: 1201, name: 'CCTV5'},{chid: 1201, name: 'CCTV5'},{chid: 1201, name: 'CCTV5'},{chid: 1201, name: 'CCTV5'}])
+        resolve("ok")
     });
 };
 
